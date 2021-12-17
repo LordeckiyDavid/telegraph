@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color: #00194A;
+}
+.navbar-brand, .icon, .icon-load {
+    color: #FF0043 !important;
+}
+.btn-nav {
+    padding: 2% 0;
+    border: 1px solid #FF0043;
+    background-color: #FF0043;
+    width: 94px;
+    color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+.btn-nav:hover, .btn-intro:hover, .btn-nav:focus, .btn-intro:focus {
+    color: #fff;
+    box-shadow: none;
+}
+.intro {
+    width: 100%;
+    height: 650px;
+    background: url("img/bck1.jpg") no-repeat center center;
+    background-size: cover;
+}
+.left-side {
+    width: 60vh;
+}
+.text-side {
+    padding-top: 200px;
+    color: #00194A;
+    font-weight: 300;
+}
+.text-side h1 {
+    font-size: 50px;
+}
+.text-side p {
+    font-size: 14px;
+    padding: 20px 0;
+}
+.btn-intro {
+    padding: 9px 0;
+    border: 1px solid #FF0043;
+    background-color: #FF0043;
+    width: 240px;
+    border-radius: 30px 30px 30px 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.devices {
+    margin-top: 50px;
+    min-height: 30vh;
+}
+.name-device {
+    font-weight: bold;
+    color: #00194A;
+    padding: 10px 0;
+}
+.load i {
+    position: absolute;
+}
+.icon i {
+    font-size: 45px;
+    padding-top: 30px;
+}
+.text-device {
+    font-weight: 300;
+    color: #00194A;
+    padding-bottom: 10px;
+}
+.visit-load {
+    display: flex;
+}
+.visit-load a {
+    font-weight: 300;
+    text-decoration: underline;
+    color: #00194A;
+}
+.load-icon a i {
+    padding-left: 25vh;
+    font-size: 18px;
+    color: #FF0043;
+}
+.visit-load a:hover {
+    color: #00194A;
+}
+.p-chat {
+    padding-top: 30px;
+}
+.right-text {
+    padding-left: 70px;
+    margin-top: 150px;
+}
+p {
+    font-weight: 300;
+}
+.about-us {
+    margin-top: 100px;
+}
+.left-about {
+    margin-top: 150px;
+}
+.verify, .share, .dialogue {
+    width: 260px;
+}
+.verify h3, .share h3, .dialogue h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.share {
+    margin-top: -80px;
+    margin-left: 350px;
+}
+.dialogue {
+    margin-top: -50px;
+}
+.groups {
+    margin-top: 150px;
+}
+.text-group {
+    margin-top: 200px;
+}
+.text-group h1 {
+    padding-bottom: 20px;
+}
+.offer_start {
+    margin-top: 50px;
+}
+.offer {
+    display: flex;
+    color: #fff;
+    background-color: #00194A;
+    width: 1139px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 100px 0 50px 0;
+    text-align: center;
+    justify-content: center;
+}
+.offer_inner {
+    width: 700px;
+}
+.offer h1 {
+    font-weight: bold;
+}
+.offer p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 300;
+}
+.btn-offer {
+    padding: 9px 0;
+    border: 1px solid #FF0043;
+    background-color: #FF0043;
+    width: 240px;
+    border-radius: 30px 30px 30px 30px;
+    color: #fff;
+    font-weight: bold;
+}
+footer {
+    margin-top: 50px;
+}
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-footer a {
+    text-decoration: none;
+    color: #00194A;
+}
+.links-footer {
+    display: inline-block;
+    padding-left: 20px;
+}
+.links-footer:first-child {
+    padding-left: 0;
+}
+.left-side_footer p {
+    font-weight: bold;
+}
+
